@@ -28,7 +28,7 @@ pip install cryptography
 Run the script:
 
 ```bash
-python parallel_text_crypto.py
+python main.py
 
 
 1. Choose:
@@ -48,21 +48,6 @@ file1.txt notes.txt somefile.txt
 * Encryption: `file.txt` → `file_encrypted.txt`
 * Decryption: `file_encrypted.txt` → `file_decrypted.txt`
 
-## Examples
-
-Encrypt:
-
-```
-Choose: 1
-Enter file paths separated by spaces: file1.txt notes.txt
-```
-
-Decrypt:
-
-```
-Choose: 2
-Enter file paths separated by spaces: file1_encrypted.txt notes_encrypted.txt
-```
 
 ## Important security notes
 
@@ -85,15 +70,4 @@ Enter file paths separated by spaces: file1_encrypted.txt notes_encrypted.txt
 * `InvalidToken` during decrypt: using wrong `secret.key` or modified file.
 * If encryption succeeds but decryption fails, ensure the same `secret.key` is used.
 
-## Suggested batch usage
 
-```bash
-python -c "from parallel_text_crypto import run_parallel; run_parallel(['file1.txt','file2.txt'], mode='encrypt')"
-```
-
-## License
-
-MIT-style (use and modify freely).
-
-```
-```
