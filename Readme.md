@@ -1,4 +1,4 @@
-````markdown
+
 # Parallel Text File Encryptor / Decryptor
 
 Small Python utility to encrypt/decrypt text files in parallel using `cryptography.Fernet`. Encrypted outputs are Base64-encoded text files so encrypted data remains printable `.txt`.
@@ -29,7 +29,7 @@ Run the script:
 
 ```bash
 python parallel_text_crypto.py
-```
+
 
 1. Choose:
 
