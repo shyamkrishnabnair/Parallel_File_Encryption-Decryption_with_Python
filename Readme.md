@@ -37,11 +37,11 @@ python main.py
    * `2` → Decrypt
 2. Enter file paths separated by spaces, for example:
 
-```
+
 file1.txt notes.txt somefile.txt
 ```
 
-> Note: the current implementation uses `str.split()` and does not support file paths containing spaces.
+Note: the current implementation uses `str.split()` and does not support file paths containing spaces.
 
 ## Output naming
 
