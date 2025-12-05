@@ -2,3 +2,5 @@ secret.key
 Files
 
 env
+node_modules
+.next
